@@ -1,0 +1,183 @@
+
+body
+{
+    background-image: url("images/tetrisbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+a
+{
+    color: #0000FF;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    cursor: pointer
+}
+.header
+{
+    text-align: center;
+    font-family: Poppins;
+    color:#ffffff;
+    text-shadow: 1px 1px 0 #000000;
+    font-size:150%;
+}
+.container
+{
+    width:40%;
+    margin: 0 auto;
+    
+}
+
+.game-container
+{
+    height:100%;
+    /* margin-top:10px; */
+}
+
+.grid
+{
+    background-color: rgb(29,2,15);
+    float:left;
+    box-shadow: 0 0 10px 2px #f1aa13;
+    border:1px solid #CCCCCC;
+    height: 100%;
+}
+
+.next-canvas
+{
+}
+
+.controls-container
+{
+    /* margin-top: 70px; */
+    width:20%;
+    float:right;
+    height:100%;
+}
+
+.score-container
+{
+    margin-top: 50%;
+    background-color: rgb(29,2,15);
+    box-shadow: 0 0 10px 2px #f1aa13;
+    text-align: center;
+    color: #FF0000;
+    font-size:100%;
+    border:1px solid #CCCCCC;
+    font-weight: bold;
+    padding:10%;
+    font-family: Poppins;
+}
+
+.score-container::before
+{
+    
+    content: "Lines Cleared";
+    width:100%;
+    float:right;
+    color: #ffffff;
+    font-size:100%;
+    font-weight: normal;
+}
+
+.next-container
+{
+    margin-top: 20%;
+    background-color: rgb(29,2,15);
+    box-shadow: 0 0 10px 2px #f1aa13;
+    text-align: center;
+    color: #FF0000;
+    font-size:100%;
+    border:1px solid #CCCCCC;
+    font-weight: bold;
+    padding:10%;
+    font-family: Poppins;
+}
+
+.next-container::before
+{
+    content: "Next Piece";
+    width:100%;
+    float:right;
+    color: #ffffff;
+    font-size:100%;
+    font-weight: normal;
+}
+
+.start-ai-button, .reset-button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:#ffffff;
+    -webkit-border-top-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    border-top-left-radius:3px;
+    -webkit-border-top-right-radius:3px;
+    -moz-border-radius-topright:3px;
+    border-top-right-radius:3px;
+    -webkit-border-bottom-right-radius:3px;
+    -moz-border-radius-bottomright:3px;
+    border-bottom-right-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-bottom-left-radius:3px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#000000;
+    font-family:Poppins;
+    font-size:100%;
+    font-weight:bold;
+    font-style:normal;
+    height:100%;
+    line-height:250%;
+    width:100%;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+}
+
+.start-ai-button:hover, .reset-button:hover {
+    background-color:#49fc1c;
+}
+
+.start-ai-button:active, .reset-button:active {
+     position:relative;
+ }
+
+.start-ai-button{
+    margin-top: 20%;
+}
+
+.reset-button{
+    margin-top: 15%;
+}
+hr
+{
+    align-self: center;
+    border-width: 60%;
+    margin-top: 90%;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    
+}
+.footer
+{
+    text-align: center;
+    font-family: Poppins;
+    color:#ffffff;
+    font-size: 80%;
+}
+
+.fb-like {
+    vertical-align: top;
+}
+.fb_iframe_widget span {
+    vertical-align: text-top !important;
+}
